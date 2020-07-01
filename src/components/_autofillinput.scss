@@ -1,0 +1,45 @@
+.autofill-wrapper {
+  padding: 20px;
+  &_input-section {
+    border-bottom: red 1px solid;
+    padding: 6px 0;
+    .input-chip {
+      background-color: #a53d6f;
+      border-radius: 15px 15px;
+      font-size: 14px;
+      padding: 5px 10px 5px 10px;
+      color: white;
+      span {
+        font-size: 14px;
+        background-color: #a53d6f;
+        margin-left: 12px;
+        cursor: pointer;
+      }
+    }
+    input {
+      font-size: 14px;
+      border: none;
+    }
+    input:focus {
+      outline: none;
+    }
+  }
+  &_list-section {
+    .list-wrapper {
+      padding: 0;
+      margin: 1px 0;
+      background-color: #978c8c;
+      color: white;
+      .list-item {
+        list-style: none;
+        padding: 2px 5px;
+        border: 1px white solid;
+        border-left: none;
+        border-right: none;
+        .list-name {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
